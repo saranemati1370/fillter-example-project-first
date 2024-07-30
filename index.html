@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FilterExample</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body class="container">
+    <div>
+      <img class="img_circle" src="./assets/img/Ellipse 1.png" alt="" />
+    </div>
+    <div>
+      <img class="img_circle2" src="./assets/img/Ellipse 1.png" alt="" />
+    </div>
+    <header>
+      <div class="Main_part_title_name">
+        <div class="part_title_name">
+          <img src="/assets/img/text.png" alt="" />
+        </div>
+      </div>
+
+      <div class="fliter_bar">
+        <div class="part_main_inp_search_name">
+          <input
+          id="search_name"
+            type="search"
+            class="inp_search_name"
+            placeholder="نام محصول"
+          />
+          <i class="bi bi-search ico_inp"></i>
+        </div>
+        <div class="btn_items">
+          <button class="filter_btn" data-filter="all">همه</button>
+          <button class="filter_btn mx-5" data-filter="program">برنامه نویسی</button>
+          <button class="filter_btn" data-filter="hack">هک و امنیت</button>
+        </div>
+        <div class="part_main_inp_search_Price">
+          <input
+            type="number"
+            class="inp_search_price"
+            placeholder="قیمت محصول"
+          />
+          <i class="bi bi-search ico_inp"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="part_main_C_main_course_item">
+        <div class="main_course_item" data-category="programming">
+          <div class="part_img_Course">
+            <img src="./assets/img/js.jpg" alt="" />
+          </div>
+          <div class="part_text_fa">
+            <p class="text_fa">دوره پروژه محور جاوااسکرپیت</p>
+          </div>
+          <div class="text_en"><p>JavaScript Project Oriented Course</p></div>
+          <div class="price_part">
+            <div><i class="bi bi-cart ico_buy_item"></i></div>
+            <div class="text_price_part">
+              <span>500</span><span>هزارتومان</span>
+            </div>
+          </div>
+        </div>
+        <div class="main_course_item" data-category="programming">
+          <div class="part_img_Course">
+            <img src="./assets/img/megaF.jpg" alt="" />
+          </div>
+          <div class="part_text_fa">
+            <p class="text_fa">مگافرانت (برنامه نویسی فرانت اند)</p>
+          </div>
+          <div class="text_en"><p>Megafront (FrontEnd Programming)</p></div>
+          <div class="price_part">
+            <div><i class="bi bi-cart ico_buy_item"></i></div>
+            <div class="text_price_part">
+              <span>999</span><span>هزارتومان</span>
+            </div>
+          </div>
+        </div>
+        <div class="main_course_item" data-category="programming">
+          <div class="part_img_Course">
+            <img src="./assets/img/html.jpg" alt="" />
+          </div>
+          <div class="part_text_fa">
+            <p class="text_fa">دوره پروژه محور طراحی سایت + پروژه</p>
+          </div>
+          <div class="text_en"><p>Website Design Course + Project</p></div>
+          <div class="price_part">
+            <div><i class="bi bi-cart ico_buy_item"></i></div>
+            <div class="text_price_part">
+              <span>200</span><span>هزارتومان</span>
+            </div>
+          </div>
+        </div>
+        <div class="main_course_item" data-category="programming">
+          <div class="part_img_Course">
+            <img src="./assets/img/inter.jpg" alt="" />
+          </div>
+          <div class="part_text_fa">
+            <p class="text_fa">ورود به دنیای برنامه نویسی</p>
+          </div>
+          <div class="text_en"><p>Enter The World Of Programming</p></div>
+          <div class="price_part">
+            <div><i class="bi bi-cart ico_buy_item"></i></div>
+            <div class="text_price_part">
+              <span>150</span><span>هزارتومان</span>
+            </div>
+          </div>
+        </div>
+        <div class="main_course_item" data-category="programming">
+          <div class="part_img_Course">
+            <img src="./assets/img/tailwind.jpg" alt="" />
+          </div>
+          <div class="part_text_fa">
+            <p class="text_fa">دوره جامع و کاربردی TailwindCss</p>
+          </div>
+          <div class="text_en"><p>TailwindCss Course</p></div>
+          <div class="price_part">
+            <div><i class="bi bi-cart ico_buy_item"></i></div>
+            <div class="text_price_part">
+              <span>359</span><span>هزارتومان</span>
+            </div>
+          </div>
+        </div>
+        <div class="main_course_item" data-category="hacking">
+          <div class="part_img_Course">
+            <img src="./assets/img/hack.jpg" alt="" />
+          </div>
+          <div class="part_text_fa">
+            <p class="text_fa">دوره هک و امنیت جاوااسکرپیت</p>
+          </div>
+
+          <div class="text_en"><p>JavaScript Hacking And Security</p></div>
+          <div class="price_part">
+            <div><i class="bi bi-cart ico_buy_item"></i></div>
+            <div class="text_price_part">
+              <span>756</span><span>هزارتومان</span>
+            </div>
+          </div>
+        </div>
+        <div class="main_course_item" data-category="programming">
+          <div class="part_img_Course">
+            <img src="./assets/img/inter.jpg" alt="" />
+          </div>
+          <div class="part_text_fa">
+            <p class="text_fa">ورود به دنیای برنامه نویسی</p>
+          </div>
+          <div class="text_en"><p>Enter The World Of Programming</p></div>
+          <div class="price_part">
+            <div><i class="bi bi-cart ico_buy_item"></i></div>
+            <div class="text_price_part">
+              <span>150</span><span>هزارتومان</span>
+            </div>
+          </div>
+        </div>
+        <div class="main_course_item" data-category="programming">
+          <div class="part_img_Course">
+            <img src="./assets/img/html.jpg" alt="" />
+          </div>
+          <div class="part_text_fa">
+            <p class="text_fa">دوره پروژه محور طراحی سایت + پروژه</p>
+          </div>
+          <div class="text_en"><p>Website Design Course + Project</p></div>
+          <div class="price_part">
+            <div><i class="bi bi-cart ico_buy_item"></i></div>
+            <div class="text_price_part">
+              <span>200</span><span>هزارتومان</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
